@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'open sans', sans-serif;
 }
 
 
@@ -15,7 +16,7 @@ body {
 
 
 header {
-  background-color: #333;
+  background-color: #e53935;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -23,23 +24,40 @@ header {
 
 header h1 {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 
-nav ul {
+nav .nav-row {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
 }
 
-nav ul li {
+nav .nav-row a {
   display: inline-block;
   margin-right: 20px;
 }
 
-nav ul li a {
+nav .nav-row a {
   text-decoration: none;
-  color: #fff;
+  color: #ff6347;
+  margin-right: 20px;
 }
 
+main{
+  flex: 1;
+  padding: 20px;
+}
+#boxing-career{
+  background-color: #B4B0E1;
+  padding: 20px;
+  border-radius: 5px;
+}
+#boxing-career h2{
+  color: #DE50b8;
+  font-family: 'roboto', sans-serif;
+}
 
 section {
   background-color: #B4B0E1;
@@ -50,6 +68,7 @@ section {
 
 section h2 {
   color: #DE50B8;
+  font-family: 'roboto', sans-serif;
 }
 
 
@@ -67,4 +86,6 @@ footer {
   color: #fff;
   text-align: center;
   padding: 10px 0;
+  margin-top: auto;
+
 }
